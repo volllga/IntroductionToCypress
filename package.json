@@ -1,0 +1,15 @@
+{
+  "name": "introductiontocypress",
+  "version": "1.0.0",
+  "description": "Introduction to package.json\r Any project that uses Node.js needs to have a package.json file that is known as\r a patent of your project, which involves the modules and applications it depends on,\r source control information, and specific metadata like the project’s name, explanation, and source.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.3"
+  }
+}

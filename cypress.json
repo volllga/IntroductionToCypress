@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://testpeeranha.io",
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 5000
+}
