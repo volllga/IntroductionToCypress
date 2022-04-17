@@ -1,5 +1,6 @@
 {
   "baseUrl": "https://testpeeranha.io",
   "watchForFileChanges": false,
-  "defaultCommandTimeout": 5000
+  "defaultCommandTimeout": 5000,
+  "viewportHeight": 600
 }

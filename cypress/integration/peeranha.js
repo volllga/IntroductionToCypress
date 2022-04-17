@@ -5,11 +5,7 @@
 const userEmail = "goofirstTest@gmail.com";
 const userPassword = "ybsatjV5X38MEgN";
 
-it('should navigate to the testpeeranha.io', () => {
-    cy.visit("/");
-    cy.get('[name="faq"]').click();
-    cy.get('[name="tags"]');
-});
+
 
 it('go to the FAQ page from side menu', () => {
     cy.visit("/");
@@ -45,4 +41,12 @@ it('Login/logout by email is success', () => {
     cy.get('.bGutLj > span').should('have.text', 'Log in');
 })
 
+// it('go to the FAQ page from side menu', () => {
+//     clickMenuItem('[name="faq"]',
+//         '.f1znse-0-Span-juOiwt > .d-none > span',
+//         "Frequently asked questions");
 
+// function clickMenuItem(itemMenu, itemPage, value) {
+//     cy.get(itemMenu).click();
+//     cy.get(itemPage).contains(value);
+// }
